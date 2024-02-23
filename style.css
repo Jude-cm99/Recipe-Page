@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 192, 203);
+    height: fit-content;
+    
+}
+.container{
+    height: 80%;
+    width:60%;
+    margin: auto;
+    position: relative;    
+    background-color: antiquewhite ;
+    padding: 2.5rem 2.5rem;
+    border-radius: 1.7rem;
+    
+}
+#egg{
+    position: relative;
+    width: 100%;
+    border-radius: 1.7rem;
+
+}
+
+.preps{
+    background-color: rgb(236, 246, 246);
+    padding: 1.5rem 1.5rem;
+    border-radius: 1.7rem;
+}
+
+.ingred, .instruct, .nutri {
+    color: brown;
+}
+
+.develop{
+    color: rgb(236, 246, 246);
+    a{text-decoration: none;}
+}
+
+
+@media (max-width: 700px){
+    .container {
+        text-align: center;
+    }
+}
